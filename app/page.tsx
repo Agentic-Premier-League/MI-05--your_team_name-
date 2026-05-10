@@ -164,7 +164,7 @@ export default function LandingPage() {
           className="animate-fade-in-up delay-300"
           style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}
         >
-          <Link href="/login">
+          <Link href="/dashboard">
             <button
               id="hero-cta-primary"
               className="btn-primary animate-pulse-glow"
@@ -326,7 +326,7 @@ export default function LandingPage() {
               </p>
 
               <div style={{ marginTop: "24px" }}>
-                <Link href="/login">
+                <Link href="/dashboard">
                   <button
                     style={{
                       background: "transparent",
@@ -548,7 +548,7 @@ export default function LandingPage() {
           >
             Join thousands of students already using CareerPilot AI — it&apos;s completely free to start.
           </p>
-          <Link href="/login" style={{ position: "relative" }}>
+          <Link href="/dashboard" style={{ position: "relative" }}>
             <button
               id="cta-banner-btn"
               className="btn-primary"

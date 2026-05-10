@@ -73,12 +73,12 @@ export default function Navbar() {
 
         {/* CTA */}
         <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-          <Link href="/login">
+          <Link href="/dashboard">
             <button className="btn-secondary" style={{ padding: "8px 20px", fontSize: "14px" }}>
               Sign In
             </button>
           </Link>
-          <Link href="/login">
+          <Link href="/dashboard">
             <button className="btn-primary" style={{ padding: "8px 20px", fontSize: "14px" }}>
               Get Started Free
             </button>
